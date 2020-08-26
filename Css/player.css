@@ -1,0 +1,86 @@
+
+
+main{
+    width: 360px;
+   /* background-color: brown;*/
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+header{
+    height: 300px;
+    text-align: center;
+    color: white;
+}
+header img{
+    height: 140px;
+    margin-top: 20px;
+}
+header h2{
+    margin: 20px 0px;
+    font-size: 35px;
+}
+header p{
+    font-size: 22px;
+}
+#content{
+    background-color: seashell;
+}
+#buttons{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+
+}
+#buttons img{
+    width: 45px;
+    height: 45px;
+    margin: 0px 15px;
+}
+#volume{
+    text-align: center;
+}
+#volume input{
+    width: 100%;
+}
+input[type="range" i]{
+    -webkit-appearance:none;
+    background: rgb(143, 105, 77);
+    height: 4px;
+    margin:0px;
+}
+input[type="range" i]::-webkit-slider-thumb{
+    -webkit-appearance:none;
+    background: thistle;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+}
+#volume h2{
+    margin: 15px 0px;
+}
+#color{
+    text-align: center;
+    margin-top: 20px;
+}
+#color button{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    outline: none;
+    
+}
+#color1{
+    background: linear-gradient(to left,rgba(238, 32, 32, 0.911),rgba(230, 190, 105, 0.61))
+}
+#color2{
+    background: linear-gradient(to left,rgba(37, 151, 218, 0.966),rgb(3, 59, 133))
+}
+#color3{
+    background: linear-gradient(to left,rgba(70, 28, 224, 0.103),rgb(236, 60, 221))
+}
+
+#color4{
+    background: linear-gradient(to left,rgba(28, 224, 77, 0.103),rgb(142, 163, 21))
+}
+
